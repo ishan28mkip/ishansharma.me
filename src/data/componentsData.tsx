@@ -144,7 +144,9 @@ const componentsData = [
                   date in realtime
                 </li>
               </p>
+              
             </div>
+            <br/>
           </div>
         </section>
       </div>
@@ -214,7 +216,7 @@ const componentsData = [
             </div>
           </div>
           <h2 className="text-2xl mb-6 font-bold">Screenshots from the app</h2>
-          <div className="flex space-x-10">
+          <div className="flex flex-wrap justify-center gap-4">
             <img
               src={HomeScreenInvestu}
               alt="thumbnail"
@@ -281,7 +283,7 @@ const componentsData = [
           <h2 className="text-2xl mb-6 font-bold">
             Screenshots of some of the features I implemented
           </h2>
-          <div className="flex space-x-10">
+          <div className="flex flex-wrap justify-center gap-4">
             <img src={RatingCleartax} alt="thumbnail" className=" h-[700px]" />
             <img
               src={WatchlistCleartax}
@@ -359,15 +361,7 @@ const componentsData = [
             Generative UI/UX using AI prompts based on your Design System
           </div>
 
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/5AtNYATIWwY?si=Gr7acGo_FzWPbE67"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
+          <div className='embed-container'><iframe src='https://www.youtube.com/embed/5AtNYATIWwY' frameBorder='0' allowFullScreen></iframe></div>
           <Link
             to="https://magify.design"
             target="_blank"

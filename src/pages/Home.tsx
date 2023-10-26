@@ -35,33 +35,33 @@ const Home = () => {
             </h2>
             <div className="flex mb-4">
               <Checkbox size="lg" defaultChecked />
-              <p className="text-2xl ml-3">
+              <p className="text-xl md:text-2xl ml-3">
                 Senior Software Engineer - 5 years experience in Urban Company,
                 Oracle, Cleartax
               </p>
             </div>
             <div className="flex  mb-4">
               <Checkbox size="lg" defaultChecked />
-              <p className="text-2xl ml-3">
+              <p className="text-xl md:text-2xl ml-3">
                 Head of engineering - Led a small team in an early stage
                 healthtech startup
               </p>
             </div>
             <div className="flex  mb-4">
               <Checkbox size="lg" defaultChecked />
-              <p className="text-2xl ml-3">
+              <p className="text-xl md:text-2xl ml-3">
                 Entrepreneur - Ran a mutual fund investment startup in 2018,
                 running an AI startup in 2023
               </p>
             </div>
             <div className="flex">
               <Checkbox size="lg" defaultChecked />
-              <p className="text-2xl ml-3">4.9+ rated Superhost on Airbnb</p>
+              <p className="text-xl md:text-2xl ml-3">4.9+ rated Superhost on Airbnb</p>
             </div>
 
             <div className="flex">
               <Checkbox size="lg" />
-              <p className="text-2xl ml-3">
+              <p className="text-xl md:text-2xl ml-3">
                 TODO: Genius, Billionaire, Playboy, Philanthropist
               </p>
             </div>
@@ -137,17 +137,17 @@ const Home = () => {
             Contact me
           </h2>
           <p className="text-lg mb-12">
-            I like hacking into codebases. If you give me a
-            large codebase and just give me 24 hours to add a new feature then
-            those 24 hours are going to be incredibly fun for me.
+            I like hacking into codebases. If you give me a large codebase and
+            just give me 24 hours to add a new feature then those 24 hours are
+            going to be incredibly fun for me.
           </p>
           <div className="flex flex-col space-y-6 mb-10">
             <input
-              className="w-96 border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+              className="border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)]"
               placeholder="Name"
             />
             <input
-              className="w-96 border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)] rounded-md"
+              className="border-black border-2 p-2.5 focus:outline-none focus:shadow-[2px_2px_0px_rgba(0,0,0,1)] focus:bg-[#FFA6F6] active:shadow-[2px_2px_0px_rgba(0,0,0,1)] rounded-md"
               placeholder="Email"
             />
           </div>
